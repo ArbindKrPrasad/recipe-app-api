@@ -1,0 +1,13 @@
+Q. What is mocking? (s7-v30)
+=>  1. Override or change behaviour of dependencies
+    2. Avoide unintended side effect
+    3. Isolate code being tested
+
+Q. Why use mocking? (s7-v30)
+=>  1. Avoide relying on external services
+        a. Can't gurantee they will be available
+        b. Makes test unintended and unpredicted
+    2. Avoide unintended consequence
+        a. Accendentally sending emails
+        b. Overloading external services
+
